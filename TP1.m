@@ -91,7 +91,7 @@ title("Le signal noise 2")
 
 %Question 1:
 [whale,fe]=audioread("bluewhale.au");
-
+ 
 chant = whale(2.45e4:3.10e4);
 %Question 2:
 
