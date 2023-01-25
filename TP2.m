@@ -4,12 +4,12 @@ clc
 %% Jeux de mots
 %Question 1:
 
-[x,fe]=audioread("C:\Users\zaina\Desktop\MyFile\S'5\Traitement de signal\tp2\Phrase.m4a");
+[x,fe]=audioread("/Users/aymanouchker/Documents/eidia/S5/Traitement du signal/Traitement-de-signal/sound.au");
 
 %Question 2:
 
 %sound(x,fe)
-%plot(x)
+plot(x)
 
 %Question 3:
 
@@ -29,7 +29,7 @@ stem(x)
 
 
 riennesertde=x(1025:(2.05e05));
-%stem(riennesertde)
+stem(riennesertde)
 %sound(riennesertde,fe)
 
 %Question 6:
